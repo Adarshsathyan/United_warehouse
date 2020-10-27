@@ -1857,9 +1857,9 @@ a:hover.back-to-top {
 
 	/* Navigation */
 	.navbar-custom {
-		padding: 2.125rem 1.5rem 2.125rem 2rem;
+		padding: 1rem 1.rem rem 2rem;
 		box-shadow: none;
-        background: transparent;
+        background: 113448;
 	}
 	
 	.navbar-custom .navbar-brand.logo-text {
