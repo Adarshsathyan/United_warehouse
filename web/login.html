@@ -19,17 +19,176 @@
 
     <!-- Website Title -->
     <title>United Warehouse</title>
-    <link href="css/style1.css" rel="stylesheet">
+    
     <link rel="icon" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-ppup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    
+
 </head>
-<body>
-<div class="login">
-    <h1>Login</h1>
-    <form method="post">
-        <input type="text" name="u" placeholder="Username" required="required" />
-        <input type="password" name="p" placeholder="Password" required="required" />
-        <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
-    </form>
-</div>
+<body data-spy="scroll" data-target=".fixed-top" style="background-image:url(images/book1-background.jpg);">
+    
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/warehouse-logo.png" style="width: auto;" alt="alternative"></a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">REGISTER</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="user-reg.html"><span class="item-text">User Registration</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">Promoter Registration</span></a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="login.html">LOGIN</a>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#services">LOGOUT</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="warehouses.html">BOOK SPACE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="booked.html">BOOKED SPACES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+    <div class="container">
+        <div class="col-md-5 ml-auto mr-auto" style="margin-top: 150px;">
+            <div class="card text-white  shadow-sm  mb-5 " style="background-image: url(images/confirm-background.jpg); border-radius: 10px;">
+                <div class="card-header h2 mb-4 text-center "><span style="color:rgb(238, 220, 220);">Login</span></div>
+                <div class="col-md-12 mb-2 ">
+                    <label class="">Username</label>
+                </div> 
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="col-md-12 form-control">
+                </div> 
+                <div class="col-md-9 mb-2 ">
+                    <label class="">Password</label>
+                </div> 
+                <div class="col-md-12 mb-3">
+                    <input type="password" class="col-md-12 form-control">
+                </div> 
+                <div class="col-md-5 mb-2 p-2 ml-auto mr-auto">
+                    <a href="warehouses.html"><button class="btn btn-primary form-control">Login</button></a>
+                </div> 
+                <div class=" col-md-12 ml-auto mr-auto mb-4 ">
+                    <a href="user-reg.html" class="" style="display: inline; color: darkgray; font-size: 15px;">Register as User</a>  
+                    <a href="user-reg.html" class=" float-right" style="display: inline; color: darkgray; font-size: 15px;">Register as Promoter</a>
+                </div>     
+            </div>
+        </div>      
+    </div>
+<!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="text-container about">
+                    <h4>Few Words About Warehouse</h4>
+                    <p class="white">We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long tima ago.</p>
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+            <div class="col-md-2">
+                <div class="text-container">
+                    <h4>Links</h4>
+                    <ul class="list-unstyled li-space-lg white">
+                        <li>
+                            <a class="white" href="#your-link">startupguide.com</a>
+                        </li>
+                        <li>
+                            <a class="white" href="terms-conditions.html">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a class="white" href="privacy-policy.html">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+            <div class="col-md-2">
+                <div class="text-container">
+                    <h4>Tools</h4>
+                    <ul class="list-unstyled li-space-lg">
+                        <li>
+                            <a class="white" href="#your-link">businessgrowth.com</a>
+                        </li>
+                        <li>
+                           <a class="white" href="#your-link">influencers.com</a>
+                        </li>
+                        <li class="media">
+                            <a class="white" href="#your-link">optimizer.net</a>
+                        </li>
+                    </ul>
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+            <div class="col-md-2">
+                <div class="text-container">
+                    <h4>Partners</h4>
+                    <ul class="list-unstyled li-space-lg">
+                        <li>
+                            <a class="white" href="#your-link">unicorns.com</a>
+                        </li>
+                        <li>
+                            <a class="white" href="#your-link">staffmanager.com</a>
+                        </li>
+                        <li>
+                            <a class="white" href="#your-link">association.gov</a>
+                        </li>
+                    </ul>
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of footer -->  
+<!-- end of footer -->
+
+<script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+<script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+<script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+<script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+<script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+<script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+<script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+<script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+<script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>
