@@ -1,33 +1,108 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Warehouses</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Aria is a business focused HTML landing page template built with Bootstrap to help you create lead generation websites for companies and their services.">
+    <meta name="author" content="Inovatik">
 
-		<!-- CSS here -->
-            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="assets/css/style.css">
-            <!-- Favicon  -->
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>United Warehouse</title>
+    
     <link rel="icon" href="images/favicon.png">
-   </head>
+   
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-ppup.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="css/styles.css" rel="stylesheet">
 
-   <body style="background-image:url(images/book1-background.jpg);">
+</head>
+<body data-spy="scroll" data-target=".fixed-top" style="background-image:url(images/book1-background.jpg);">
+    
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/warehouse-logo.png" style="width: auto;" alt="alternative"></a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">REGISTER</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="user-reg.html"><span class="item-text">User Registration</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">Promoter Registration</span></a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="login.html">LOGIN</a>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#services">LOGOUT</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="warehouses.html">BOOK SPACE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="booked.html">BOOKED SPACES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+
     <div class="container">
         <h2 class="text-center mt-4 mb-5">Warehouses</h2>
         <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="single-product mb-60">
                     <div class="card">
-                        <img class="card-img-top" src="images/details-1-background.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/confirm-background.jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Warehouse 1</h5>
                           <p class="card-text">Price : 1000/-<br></p>
-                          <a href="warehouse-details.html" class="btn btn-primary">Show</a>
+                          <a href="warehouse-details.html" class="btn btn-primary" style="text-decoration: none;">Show</a>
                         </div>
                       </div>
                 </div>
@@ -35,7 +110,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="single-product mb-60">
                     <div class="card">
-                        <img class="card-img-top" src="images/details-1-background.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/background-detail.jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Warehouse 1</h5>
                           <p class="card-text">Price : 1000/-<br></p>
@@ -47,7 +122,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="single-product mb-60">
                     <div class="card">
-                        <img class="card-img-top" src="images/details-1-background.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/book-background.jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Warehouse 1</h5>
                           <p class="card-text">Price : 1000/-<br></p>
@@ -56,44 +131,92 @@
                       </div>
                 </div>
             </div>
-             
-
-           
-            
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single-product mb-60">
+                    <div class="card">
+                        <img class="card-img-top" src="images/book-background.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Warehouse 1</h5>
+                          <p class="card-text">Price : 1000/-<br></p>
+                          <a href="#" class="btn btn-primary">Show</a>
+                        </div>
+                      </div>
+                </div>
+            </div> 
         </div>
     </div>
-    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-    <!-- Jquery, Popper, Bootstrap -->
-    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <!-- Jquery Mobile Menu -->
-    <script src="./assets/js/jquery.slicknav.min.js"></script>
-
-    <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
-
-    <!-- One Page, Animated-HeadLin -->
-    <script src="./assets/js/wow.min.js"></script>
-    <script src="./assets/js/animated.headline.js"></script>
-    <script src="./assets/js/jquery.magnific-popup.js"></script>
-
-    <!-- Scrollup, nice-select, sticky -->
-    <script src="./assets/js/jquery.scrollUp.min.js"></script>
-    <script src="./assets/js/jquery.nice-select.min.js"></script>
-    <script src="./assets/js/jquery.sticky.js"></script>
+    <!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="text-container about">
+                    <h4>Few Words About Warehouse</h4>
+                    <p class="white">We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long tima ago.</p>
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+            <div class="col-md-2">
+                <div class="text-container">
+                    <h4>Links</h4>
+                    <ul class="list-unstyled li-space-lg white">
+                        <li>
+                            <a class="white" href="#your-link">startupguide.com</a>
+                        </li>
+                        <li>
+                            <a class="white" href="terms-conditions.html">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a class="white" href="privacy-policy.html">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+            <div class="col-md-2">
+                <div class="text-container">
+                    <h4>Tools</h4>
+                    <ul class="list-unstyled li-space-lg">
+                        <li>
+                            <a class="white" href="#your-link">businessgrowth.com</a>
+                        </li>
+                        <li>
+                           <a class="white" href="#your-link">influencers.com</a>
+                        </li>
+                        <li class="media">
+                            <a class="white" href="#your-link">optimizer.net</a>
+                        </li>
+                    </ul>
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+            <div class="col-md-2">
+                <div class="text-container">
+                    <h4>Partners</h4>
+                    <ul class="list-unstyled li-space-lg">
+                        <li>
+                            <a class="white" href="#your-link">unicorns.com</a>
+                        </li>
+                        <li>
+                            <a class="white" href="#your-link">staffmanager.com</a>
+                        </li>
+                        <li>
+                            <a class="white" href="#your-link">association.gov</a>
+                        </li>
+                    </ul>
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of footer -->  
+<!-- end of footer -->
     
-    <!-- contact js -->
-    <script src="./assets/js/contact.js"></script>
-    <script src="./assets/js/jquery.form.js"></script>
-    <script src="./assets/js/jquery.validate.min.js"></script>
-    <script src="./assets/js/mail-script.js"></script>
-    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-    
-    <!-- Jquery Plugins, main Jquery -->	
-    <script src="./assets/js/plugins.js"></script>
-    <script src="./assets/js/main.js"></script>
-    
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>
