@@ -49,7 +49,7 @@
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
     
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/warehouse-logo.png" style="width: auto;" alt="alternative"></a>
+            <a class="navbar-brand logo-image" href=""><img src="images/warehouse-logo.png" style="width: auto;" alt="alternative"></a>
             
             <!-- Mobile Menu Toggle Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,27 +61,14 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="index.html">HOME <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">REGISTER</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="user-reg.html"><span class="item-text">User Registration</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="employee-reg.html"><span class="item-text">Promoter Registration</span></a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="login.html">LOGIN</a>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#services">LOGOUT</a>
+                        <a class="nav-link page-scroll" href="employee-home.html">ADDED WAREHOUSES</a>
                     </li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="warehouses.html">BOOK SPACE</a>
+                        <a class="nav-link page-scroll" href="employee-add-wh.html">ADD NEW</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="booked.html">BOOKED SPACES</a>
+                        <a class="nav-link page-scroll" href="login.html">LOGOUT</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#contact">CONTACT</a>
@@ -93,51 +80,39 @@
 
     <section class="login_part">
         <div class="container">
-            <h3 class="text-center mb-5" style="margin-top: 4em;"; >User Registration</h3>
+            <h3 class="text-center mb-5" style="margin-top: 4em;"; >Add Warehouse</h3>
             <form class="contact_form mb-5" action="#" method="post" novalidate="novalidate">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="col-md-12 form-group p_star">
-                            <label class="text-dark font-weight-bold">Name of User</label>
-                            <input type="text" class="form-control " id="name" name="name" value="" placeholder="Full name">
+                            <label class="text-dark font-weight-bold">Warehouse Facility</label><br>
+                            <select name="type" id="type" class="btn btn-light col-md-12  mb-auto"> 
+                                <option value="">Select</option>
+                                <option value="">Type 1</option>
+                                <option value="">Type 2</option>
+                                <option value="">Type 3</option>
+                                <option value="">Type 4</option>
+                            </select>
                         </div>
                         <div class="col-md-12 form-group p_star">
-                            <label class="text-dark font-weight-bold">Address</label>
-                            <textarea  class="form-control" id="password" name="password" value="" placeholder="Address"></textarea>
-                        </div>
-                        <div class="col-md-12 form-group p_star">
-                            <label class="text-dark font-weight-bold">Contact No.</label>
-                            <input type="tel" class="form-control col-md" id="name" name="name" value="" placeholder="Phone">
-                        </div>
-                        <div class="col-md-12 form-group p_star">
-                            <label class="text-dark font-weight-bold">Email</label>
-                            <input type="email" class="form-control col-md" id="name" name="name" value="" placeholder="Email">
-                        </div>
-                        <div class="col-md-12 form-group p_star">
-                            <label class="text-dark font-weight-bold">Password</label>
-                            <input type="password" class="form-control col-md" id="name" name="name" value="" placeholder="Password">
-                        </div>
-                        <div class="col-md-12 form-group p_star">
-                            <label class="text-dark font-weight-bold"> Confirm Password</label>
-                            <input type="password" class="form-control col-md" id="name" name="name" value="" placeholder="Password">
+                            <label class="text-dark font-weight-bold">No.of Warehouse</label><br>
+                                <select name="type" id="type" class="btn btn-light col-md-12  mb-auto"> 
+                                    <option value="">Select</option>
+                                    <option value="">Type 1</option>
+                                    <option value="">Type 2</option>
+                                    <option value="">Type 3</option>
+                                    <option value="">Type 4</option>
+                                </select>
                         </div>            
                     </div>
                     <div class="col-md-6">
                         <div class="col-md-12 form-group p_star">
-                            <label class="text-dark font-weight-bold">Your state</label>
-                            <input type="text" class="form-control col-md" id="name" name="name" value="" placeholder="State">
+                            <label class="text-dark font-weight-bold">Amount</label>
+                            <input type="text" class="form-control col-md" id="name" name="name" value="" placeholder="Rs/week">
                         </div>
                         <div class="col-md-12 form-group p_star">
-                            <label class="text-dark font-weight-bold">Your district</label>
-                            <input type="text" class="form-control" id="password" name="password" value="" placeholder="District">
-                        </div>
-                        <div class="col-md-12 form-group p_star">
-                            <label class="text-dark font-weight-bold">Your Taluk</label>
-                            <input type="text" class="form-control col-md" id="name" name="name" value="" placeholder="Taluk">
-                        </div>
-                        <div class="col-md-12 form-group p_star">
-                            <label class="text-dark font-weight-bold">Location</label>
-                            <input type="Location" class="form-control col-md" id="name" name="name" value="" placeholder="Location">
+                            <label class="text-dark font-weight-bold">Place</label>
+                            <input type="text" class="form-control" id="password" name="password" value="" placeholder="State">
                         </div>
                         <div class=" col-md-12 form-group " style="display: inline-flex;">
                             <button type="submit" value="submit" class="btn_3 col-md-6">Submit</button>

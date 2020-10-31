@@ -15,82 +15,67 @@
 	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
 	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
 	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta property="og:type" content="article" />
-
-    <!-- Website Title -->
-    <title>Warehouse Details</title>
-    
-    <!-- Styles -->
+    <meta property="og:type" content="article" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	
-	<!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
-</head>
-<body data-spy="scroll" data-target=".fixed-top" style="background-image:url(images/book1-background.jpg);">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Website Title -->
+    <title>United Warehouse</title>
+    </head>
+    <body data-spy="scroll" data-target=".fixed-top" style="background-image:url(images/book1-background.jpg);">
     
         <!-- Preloader -->
-    <div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
+        <div class="spinner-wrapper">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
         </div>
-    </div>
         <!-- end of preloader -->
         
     
         <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
             <!-- Text Logo - Use this if you don't have a graphic logo -->
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
     
             <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/warehouse-logo.png" style="width: auto;" alt="alternative"></a>
+            <a class="navbar-brand logo-image" href=""><img src="images/warehouse-logo.png" style="width: auto;" alt="alternative"></a>
             
             <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-awesome fas fa-bars"></span>
-         <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-awesome fas fa-bars"></span>
+                <span class="navbar-toggler-awesome fas fa-times"></span>
+            </button>
             <!-- end of mobile menu toggle button -->
     
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="index.html">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">REGISTER</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="user-reg.html"><span class="item-text">User Registration</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="employee-reg.html"><span class="item-text">Promoter Registration</span></a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="login.html">LOGIN</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#services">LOGOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="warehouses.html">BOOK SPACE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="booked.html">BOOKED SPACES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
-                </li>
-            </ul>
-        </div>
-    </nav> <!-- end of navbar -->
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="employee-home.html">ADDED WAREHOUSES</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="employee-add-wh.html">ADD NEW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="login.html">LOGOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> <!-- end of navbar -->
         <!-- end of navbar -->
     <div class="container">
         <h2 class="text-center p-4 mb-5">Book Warehouse</h2>
@@ -104,38 +89,16 @@
                         <h5 class="card-title">Warehouse 1</h5>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item font-weight-bold">Type 1 <span style="float: right;"><button class="btn btn-dark text-white" >Weekly 1500/-</button></span></li>
-                        <li class="list-group-item font-weight-bold">Type 2 <span style="float: right;"><button class="btn btn-dark text-white" >Weekly 2500/-</button></span></li>
-                        <li class="list-group-item font-weight-bold">Type 3 <span style="float: right;"><button class="btn btn-dark text-white" >Weekly 1000/-</button></span></li>
-                        <li class="list-group-item font-weight-bold">Type 4 <span style="float: right;"><button class="btn btn-dark text-white" >Weekly 3000/-</button></span></li>
+                        <li class="list-group-item font-weight-bold ">Amount<span style="float: right;"><button class="btn btn-success border-dark" >Weekly 1500/-</button></span></li>
+                        <li class="list-group-item font-weight-bold ">Place<span style="float: right;"><button class="btn btn-success border-dark" >Kerala</button></span></li>
+                        <li class="list-group-item font-weight-bold ">No.of Warehouse<span style="float: right;"><button class="btn btn-success border-dark" >10</button></span></li>
+                        <li class="list-group-item ml-auto mr-auto col-md-12">
+                            <button class="btn btn-dark col-md-6" style="display: inline;">Edit</button>
+                            <button class="btn btn-danger col-md-5 " style="display: inline;">Delete</button>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card mt-3 col-md-12 shadow-lg p-3 mb-5 ">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Available spaces</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item h5 text-dark">Type 1<span style="float: right;" class="text-danger"> Not Available [0 nos]</span> </li>
-                        <li class="list-group-item h5 text-dark">Type 2 <span style="float: right;" class="text-success">Available [1 nos]</span> </li>
-                        <li class="list-group-item h5 text-dark">Type 3 <span style="float: right;" class="text-success">Available [1 nos]</span> </li>
-                        <li class="list-group-item h5 text-dark">Type 4 <span style="float: right;" class="text-danger"> Not Available [0 nos]</span> </li>
-                    </ul>
-                    <div class="card-body">
-                        <select name="type" id="type" class="btn btn-dark w-50  mb-auto"> 
-                            <option value="">Select</option>
-                            <option value="">Type 1</option>
-                            <option value="">Type 2</option>
-                            <option value="">Type 3</option>
-                            <option value="">Type 4</option>
-                        </select><br><br>
-                        <a href="warehouse-date.html"><button class="btn btn-primary" >Book Here</button></a> 
-                    </div>
-                </div>
-            </div> 
         </div>
     </div>
         <!-- Footer -->
